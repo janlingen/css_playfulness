@@ -20,11 +20,24 @@
             /* class name selector */
             color: red;
         }
+
+        /* go through hirarchy */
+        .pos1 p{
+            color: blue
+        }
+
+        .pos1 .pos2 p {text-align: center;}
     </style>
 </head>
 <body>
     <p>test 1</p>
     <h1 id="test">test 2</h1>
     <h2 class="test">test 3</h2>
+    <div class="pos1">
+        <div class="pos2">
+            <p>test 4</p>
+        </div>
+        <p> test 5 </p>
+    </div>
 </body>
 </html>
