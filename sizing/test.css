@@ -1,0 +1,16 @@
+
+html {
+    background-color: blueviolet;
+    height: 50%;
+    width: 100%;
+}
+
+body {
+    background-color: orange;
+    height: 100%;
+    width: 50%;
+}
+
+p{
+    background-color: red;
+}
