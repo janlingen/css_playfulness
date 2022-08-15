@@ -1,0 +1,31 @@
+html {
+    background-color: blueviolet;
+    height: 50%;
+    width: 100%;
+}
+
+body {
+    background-color: orange;
+    height: 100%;
+}
+
+p{
+    background-color: red;
+}
+
+.ciao{
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.bella{
+    border: 10px solid green;
+    margin: 50px;
+}
+
+.hello{
+    /* relative to 16px */
+    color: white;
+    padding: 15px;
+    border: 1px solid black;
+}
